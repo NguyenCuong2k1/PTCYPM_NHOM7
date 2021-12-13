@@ -1,0 +1,111 @@
+4.1. Lu?ng s? ki?n mô t? Usecase “Qu?n lý s?n ph?m”
+1. 1 Ði?u ki?n b?t d?u: Nhân viên Qu?n Lý S?n ph?m dã dang nh?p vào h? th?ng và ch?n ch?c nang qu?n lý s?n ph?m
+1.2 Lu?ng chính
+1.2.1. H? th?ng hi?n th? danh sách các s?n ph?m và danh m?c các ch?c nang .
+1.2.2 Nhân viên Qu?n Lý S?n ph?m ch?n ch?c nang:
++ Xem chi ti?t s?n ph?m : Lu?ng con A1.
++ Thêm m?i s?n ph?m: Lu?ng con A2.
++ S?a thông tin s?n ph?m: Lu?ng con A3.
++ Xóa s?n ph?m: Lu?ng con A4.
+N?u nh?n thoát lu?ng r? nhánh E1 th?c hi?n
+1.2.3. K?t thúc. 
+1.3 Lu?ng con
+1.3.1 Lu?ng con A1: Nhân viên ch?n xem chi ti?t s?n ph?m.
+1.3.1.1 H? th?ng s? hi?n th? thông tin chi ti?t v? s?n ph?m dó.
+1.3.1.2 K?t thúc.
+1.3.2 Lu?ng con A2: Nhân viên ch?n thêm s?n ph?m
+1.3.2.1. H? th?ng chuy?n d?n trang thêm s?n ph?m.
+1.3.2.2. Nhân viên nh?p thông tin s?n ph?m m?i
+1.3.2.3. Nhân viên nh?n thêm. N?u nh?n H?y, lu?ng r? nhánh E2 th?c hi?n
+1.3.2.4. H? th?ng ki?m tra thông tin
+1.3.2.5. N?u thông tin h?p l?: H? th?ng thêm s?n ph?m m?i vào CSDL. N?u thông tin không h?p l? lu?ng r? nhánh E3 th?c hi?n
+1.3.2.6. H? th?ng thông báo thêm thành công
+1.3.2.7. K?t thúc
+1.3.3 Lu?ng con A3: Nhân viên ch?n s?a thông tin s?n ph?m
+1.3.3.1. Nhân viên ch?n s?n ph?m c?n s?a thông tin
+1.3.3.2. H? th?ng chuy?n sang trang s?a thông tin
+1.3.3.3. Nhân viên nh?p thông tin s?n ph?m
+1.3.3.4. Nhân viên nh?n c?p nh?t. N?u nh?n H?y, lu?ng r? nhánh E4 th?c hi?n
+1.3.3.5. H? th?ng ki?m tra thông tin
+1.3.3.6. N?u thông tin h?p l?: H? th?ng c?p nh?t s?n ph?m trong CSDL. N?u thông tin không h?p l? lu?ng r? nhánh E5 th?c hi?n
+1.3.3.7. H? th?ng thông báo c?p nh?t thành công
+1.3.3.8. K?t thúc
+1.3.4 Lu?ng con A4: Nhân viên ch?n xóa s?n ph?m.
+1.3.4.1 Nhân viên ch?n s?n ph?m c?n xóa 
+1.3.4.2 H? th?ng dua ra thông báo có mu?n xóa s?n ph?m không. Nhân viên ch?n có. N?u nhân viên ch?n không thì lu?ng r? nhánh E6 th?c hi?n 
+1.3.4.3 H? th?ng xóa s?n ph?m kh?i CSDL 
+1.3.4.4 K?t thúc
+1.4. Lu?ng r? nhánh
+1.4.1  E-1: Nhân viên ch?n thoát h? th?ng s? th?c hi?n K?t Thúc
+1.4.2. E-2: Nhân viên ch?n h?y h? th?ng tr? v? tr?ng thái hi?n th? dnah sách s?n ph?m và sanh m?c ch?c nang
+3.3. E-3: Nhân viên nh?p thông tin không h?p l?: H? th?ng thông báo yêu c?u nhân viên nh?p l?i. Nhân viên ch?n nh?p l?i th?c hi?n nh?p l?i thông tin s?n ph?m m?i
+3.4. E-4: Nhân viên ch?n h?y th?c hi?n K?t Thúc
+3.5. E-5: Nhân viên nh?p thông tin không h?p l?: H? th?ng thông báo yêu c?u nhân viên nh?p l?i. Nhân viên ch?n nh?p l?i th?c hi?n nh?p l?i thông tin s?n ph?m 
+3.6. E-6: Ngu?i dùng ch?n không. Th?c hi?n K?t Thúc
+4.. Lu?ng s? ki?n mô t? Usecase “Th?ng kê khuy?n mãi”
+Ði?u ki?n b?t d?u: Nhân viên qu?n lý s?n ph?m dã dang nh?p vào h? th?ng và ch?n ch?c nang th?ng kê.
+1. Lu?ng chính
+1.1. H? th?ng yêu c?u ch?n tiêu chí th?ng kê.
+     + Th?ng kê theo tháng: Lu?ng con A1
+     + Th?ng kê theo quý: Lu?ng con A2
+     + Th?ng kê theo nam: Lu?ng con A3
+1.2. Nhân viên qu?n lý s?n ph?m ch?n tiêu chí th?ng kê.
+1.3. H? th?ng th?c hi?n th?ng kê theo tiêu chí  qu?n lý s?n ph?m ch?n.
+1.4. K?t thúc UC.
+2. Lu?ng con
+2.1. Lu?ng con A1: Nhân viên qu?n lý s?n ph?m ch?n th?ng kê theo tháng
+2.1.1.Nhân viên ch?n kho?ng th?i gian th?ng kê.
+2.1.2. H? th?ng s? hi?n th? th?ng kê khuy?n m?i theo tháng
+2.1.3. K?t thúc
+2.2. Lu?ng con A2: Nhân viên qu?n lý s?n ph?m ch?n th?ng kê theo nam
+2.1.1.Nhân viên ch?n tiêu chí th?ng kê theo nam
+2.2.2. H? th?ng s? hi?n th? th?ng kê khuy?n m?i theo nam
+2.2.3. K?t thúc
+2.3. Lu?ng con A3:  Nhân viên ch?n th?ng kê theo quý.
+2.1.1.Nhân viên ch?n tiêu chí th?ng kê theo quý
+2.3.2. H? th?ng s? hi?n th? th?ng kê khuy?n m?i theo quý 
+2.3.3. K?t thúc.
+4.1. Lu?ng s? ki?n mô t? Usecase “Qu?n lý Khuy?n m?i”
+1. 1 Ði?u ki?n b?t d?u: Nhân viên Qu?n Lý S?n ph?m dã dang nh?p vào h? th?ng và ch?n ch?c nang qu?n lý khuy?n m?i
+1.2 Lu?ng chính
+1.2.1. H? th?ng hi?n th? danh sách các khuy?n m?i và danh m?c các ch?c nang .
+1.2.2 Nhân viên Qu?n Lý S?n ph?m ch?n ch?c nang:
++ Xem chi ti?t khuy?n m?i: Lu?ng con A1.
++ Thêm m?i khuy?n m?i: Lu?ng con A2.
++ S?a thông tin khuy?n m?i: Lu?ng con A3.
++ Xóa khuy?n m?i: Lu?ng con A4.
+N?u nh?n thoát lu?ng r? nhánh E1 th?c hi?n
+1.2.3. K?t thúc. 
+1.3 Lu?ng con
+1.3.1 Lu?ng con A1: Nhân viên ch?n xem chi ti?t khuy?n m?i.
+1.3.1.1 H? th?ng s? hi?n th? thông tin chi ti?t v? khuy?n m?i dó.
+1.3.1.2 K?t thúc.
+1.3.2 Lu?ng con A2: Nhân viên ch?n thêm khuy?n m?i 
+1.3.2.1. H? th?ng chuy?n d?n trang thêm khuy?n m?i.
+1.3.2.2. Nhân viên nh?p thông tin khuy?n m?i m?i
+1.3.2.3. Nhân viên nh?n thêm. N?u nh?n H?y, lu?ng r? nhánh E2 th?c hi?n
+1.3.2.4. H? th?ng ki?m tra thông tin
+1.3.2.5. N?u thông tin h?p l?: H? th?ng thêm khuy?n m?i m?i vào CSDL. N?u thông tin không h?p l? lu?ng r? nhánh E3 th?c hi?n
+1.3.2.6. H? th?ng thông báo thêm thành công
+1.3.2.7. K?t thúc
+1.3.3 Lu?ng con A3: Nhân viên ch?n s?a thông tin khuy?n m?i
+1.3.3.1. Nhân viên ch?n khuy?n m?i c?n s?a thông tin
+1.3.3.2. H? th?ng chuy?n sang trang s?a thông tin
+1.3.3.3. Nhân viên nh?p thông tin khuy?n m?i
+1.3.3.4. Nhân viên nh?n c?p nh?t. N?u nh?n H?y, lu?ng r? nhánh E4 th?c hi?n
+1.3.3.5. H? th?ng ki?m tra thông tin
+1.3.3.6. N?u thông tin h?p l?: H? th?ng c?p nh?t khuy?n m?i trong CSDL. N?u thông tin không h?p l? lu?ng r? nhánh E5 th?c hi?n
+1.3.3.7. H? th?ng thông báo c?p nh?t thành công
+1.3.3.8. K?t thúc
+1.3.4 Lu?ng con A4: Nhân viên ch?n xóa khuy?n m?i.
+1.3.4.1 Nhân viên ch?n khuy?n m?i c?n xóa 
+1.3.4.2 H? th?ng dua ra thông báo có mu?n xóa khuy?n m?i không. Nhân viên ch?n có. N?u nhân viên ch?n không thì lu?ng r? nhánh E6 th?c hi?n 
+1.3.4.3 H? th?ng xóa khuy?n m?i kh?i CSDL 
+1.3.4.4 K?t thúc
+1.4. Lu?ng r? nhánh
+1.4.1  E-1: Nhân viên ch?n thoát h? th?ng s? th?c hi?n K?t Thúc
+1.4.2. E-2: Nhân viên ch?n h?y h? th?ng tr? v? tr?ng thái hi?n th? dnah sách khuy?n m?i và sanh m?c ch?c nang
+3.3. E-3: Nhân viên nh?p thông tin không h?p l?: H? th?ng thông báo yêu c?u nhân viên nh?p l?i. Nhân viên ch?n nh?p l?i th?c hi?n nh?p l?i thông tin s?n ph?m m?i
+3.4. E-4: Nhân viên ch?n h?y th?c hi?n K?t Thúc
+3.5. E-5: Nhân viên nh?p thông tin không h?p l?: H? th?ng thông báo yêu c?u nhân viên nh?p l?i. Nhân viên ch?n nh?p l?i th?c hi?n nh?p l?i thông tin s?n ph?m 
+3.6. E-6: Ngu?i dùng ch?n không. Th?c hi?n K?t Thúc
