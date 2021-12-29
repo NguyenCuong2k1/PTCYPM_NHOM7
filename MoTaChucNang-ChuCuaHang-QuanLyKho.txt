@@ -1,0 +1,24 @@
+1. Thêm sản phẩm
+	Mô tả: Chức năng này có thể cung cấp cho chủ cửa hàng thêm được các sản phẩm mới vào hệ thống
+	Thông tin đầu vào: thông tin của sản phẩm gồm: tên, loại, giá, kích cỡ ... từ chủ của hàng
+	Hoạt động của hệ thống: Hệ thống kiểm tra dữ liệu và thêm sản phẩm mới vào cơ sở dữ liệu
+2. Xem thông tin sản phẩm
+	Mô tả: Chức năng này có thể cung cấp thông tin của sản phẩm cho chủ cửa hàng
+	Thông tin đầu vào: cung cấp thông tin gồm tên sản phẩm, Loại sản phẩm ... từ chủ cửa hàng
+	Hoạt động của hệ thống; Hệ thống kiểm tra dữ liệu đầu vào và ung cấp thông tin sản phẩm mà chủ cửa hàng tìm kiếm
+3. Sửa thông tin nhân viên
+	Mô tả: Chức năng này cho phép chủ cửa hàng có thể cập nhật thông tin của nhân viên khi cần thiết
+	Thông tin đầu vào: Thông tin của nhân viên như Tên, ngày sinh, nơi sống, CMND mà chủ cửa hàng muốn thay đổi
+	Hoạt động của hệ thống: Hệ thống kiểm tra dữ liệu và cập nhật lại thông tin nhân viên trong cơ sở dữ liệu
+4. Xóa nhân viên
+	Mô tả: Chức năng này cho phép chủ cửa hàng có thể sa thải nhân viên hoặc loại bỏ các nhân viên đã nghỉ làm ra khỏi hệ thống
+	Thông tin đầu vào: Mã nhân viên từ chủ cửa hàng
+	Hoạt động của hệ thống: hệ thông sẽ xóa nhân viên ra khỏi CSDL
+5. Thống kê doanh thu
+	Mô tả: chức năng này cho phép chủ cửa hàng có thể xem được doanh thu của cửa hàng theo thời gian hoạt động 
+	Thông tin đầu vào: Chủ cửa hàng cung cấp khoảng thời gian cần thống kê doanh thu
+	Hoạt động của hệ thống: Hệ thống kiểm tra dữ liệu và cung cấp một bản thống kê về doanh thu của cửa hàng theo thời gian mà chủ cửa hàng yêu cầu
+6. báo cáo xuất hàng
+	Mô tả: chức năng này cho phép quản lý kho có thể xem được các thông tin, số lượng xuất bán, số lượng giảm khi kiểm kê, sô lượng chuyển đi kho khác
+	Thông tin đầu vào: cung cấp thông tin gồm thời gian, loại sản phẩm, sản phẩm từ quản lý kho
+	Hoạt động hệ thống: Hệ thống kiểm tra thông tin và cung cấp một bản báo cáo chi tiết cho quản lý kho
